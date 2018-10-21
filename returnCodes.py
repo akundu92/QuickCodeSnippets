@@ -11,7 +11,6 @@ boRequestStatus = {
   "500": ["RESTful web service internal error", "An unclassified error occurred. See the response body for more information."],
   "503": ["RESTful web service plugin not found", "The web service is not available. Verify that the service is configured correctly."]
 
-
 }
 
 for i in boRequestStatus:
