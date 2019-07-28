@@ -2,7 +2,7 @@
 import xlrd
 
 #Converts excel date to python datetime as well
-def convert_excel_to_tuple_list(fileloc,date_columns=[1,],datemode=0):
+def convert_excel_to_tuple_list(fileloc,date_columns=(1,),datemode=0):
     # Give the location of the file
 
 
